@@ -1,4 +1,3 @@
-body{
 .navbar {
     background-color: #333;
     font-size: 1.2em;
@@ -6,26 +5,25 @@ body{
     text-align: center;
     position:fixed;
     width:100%;
-    top:0;
+    margin-top: 0;
     z-index: 1000;
 }
-.navbar ul {
-    list-style-type: none;
+.navbar ul{
+    list-style: none;
     margin: 0;
     padding: 0;
 }
-.navbar li {
+.navbar ul li {
     display: inline;
     margin: 0 1em;
 }
-nav li a {
+.navbar ul li a{
     color: #fff;
 }
-.main{
-    padding-top: 5em;
-}
 .main-content{
-        padding: 2em 1em;
+    padding-top: 5em;
+    padding: 2em 1em;
+    text-align: center;
 }
 .home h1{
     font-size: 2.5em;
@@ -48,12 +46,13 @@ nav li a {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     box-sizing: border-box;
-       transition:transform 0.3s;
+       transition:transform 0.3s; 
 }
-.portfolio-item h3{
-    font-weight:bold;
+.portfolio-item h3 {
+    font-weight: bold;
     margin-bottom: 0.5em;
 }
+
 .portfolio-item p {
     margin-bottom: 0.5em;
     color: #666;
@@ -61,10 +60,12 @@ nav li a {
 .portfolio-item img{
     max-width: 100%;
    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+   top:0;
 }
 .portfolio-item:hover {
     transform: scale(1.05);
 }
+
 #footer{
     background-color: #222;
     color:#fff;
@@ -74,4 +75,5 @@ nav li a {
     bottom: 0;
         width: 100%;
 }
-}
+
+
